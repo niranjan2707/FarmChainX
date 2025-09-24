@@ -1,0 +1,79 @@
+.verification-hub {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.verification-hub h1 {
+  text-align: center;
+  color: var(--customer-primary);
+  margin-bottom: 2rem;
+}
+
+.scanner-container {
+  text-align: center;
+}
+
+.scanner-container p {
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+.widget {
+    background: #f9f3f3;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    margin-bottom: 1.5rem;
+}
+
+.new-scan-button {
+    display: block;
+    margin: 0 auto 2rem;
+    padding: 12px 24px;
+    background-color: var(--customer-accent);
+    color: rgb(241, 230, 230);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.new-scan-button:hover {
+    background-color: var(--customer-primary);
+}
+
+.verification-error {
+    background-color: #ffebee;
+    color: #c62828;
+    border: 1px solid #ef9a9a;
+    text-align: center;
+}
+
+/* Navigation Tabs */
+.hub-nav {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.hub-nav button {
+  padding: 1rem 2rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #666;
+  position: relative;
+  border-bottom: 3px solid transparent;
+  transition: color 0.2s, border-bottom-color 0.2s;
+}
+
+.hub-nav button.active {
+  color: var(--primary-color);
+  border-bottom-color: var(--primary-color);
+}

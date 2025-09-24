@@ -1,0 +1,65 @@
+.retailer-home .stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.retailer-home .stat-card {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.retailer-home .stat-card h2 {
+  margin: 0;
+  font-size: 2.2rem;
+  color: #F57C00; /* Retailer theme color */
+}
+
+.retailer-home .stat-card p {
+  margin: 0.5rem 0 0;
+  color: #666;
+}
+
+.stat-card.low-stock h2 {
+  color: #d32f2f;
+}
+
+.retailer-widgets-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1.5rem;
+}
+
+.widget {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.quick-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* CHANGED: This rule now uses the correct orange color */
+.action-button {
+  display: block;
+  text-align: center;
+  padding: 1rem;
+  background-color: #FF9800; /* Directly set to the correct orange color */
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.action-button:hover {
+    background-color: #F57C00; /* A darker orange for hover */
+    transform: translateY(-2px);
+}

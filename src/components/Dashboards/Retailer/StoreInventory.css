@@ -1,0 +1,31 @@
+.inventory-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+.product-card {
+  background: #fff; border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  display: flex; flex-direction: column;
+}
+.product-card-header { text-align: center; padding: 1rem; }
+.product-card-header img {
+  width: 100%; height: 160px; object-fit: cover; border-radius: 4px; margin-bottom: 1rem;
+}
+.product-card-header h3 { margin: 0; }
+.product-price { font-size: 1.2rem; font-weight: bold; color: var(--retailer-primary); }
+.product-card-body { padding: 1rem; border-top: 1px solid #f0f0f0; flex-grow: 1; }
+.shelf-life { padding: 5px; border-radius: 4px; text-align: center; font-weight: 500;}
+.shelf-life.fresh { background: #e8f5e9; }
+.shelf-life.expiring-soon { background: #fff3e0; font-weight: bold; }
+.shelf-life.expired { background: #ffebee; color: #c62828; font-weight: bold; }
+.product-card-footer { padding: 1rem; border-top: 1px solid #f0f0f0; }
+.stock-info {
+  height: 10px; background-color: #e0e0e0; border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+.stock-bar { height: 100%; border-radius: 5px; }
+.stock-bar.high { background-color: #4CAF50; }
+.stock-bar.medium { background-color: #FFC107; }
+.stock-bar.low { background-color: #F44336; }
+.product-card-footer span { text-align: right; display: block; font-size: 0.9rem; font-weight: bold; }

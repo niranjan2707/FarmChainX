@@ -1,0 +1,12 @@
+.sales-analytics .charts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 1.5rem;
+}
+.sales-analytics .widget {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+.sales-analytics h3 { text-align: center; margin-bottom: 1.5rem; }

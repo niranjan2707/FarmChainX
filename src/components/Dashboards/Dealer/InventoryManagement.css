@@ -1,0 +1,35 @@
+.inventory-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
+.inventory-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+}
+.inventory-card-header {
+  display: flex; gap: 1rem; padding: 1rem;
+}
+.inventory-card-header img {
+  width: 60px; height: 60px; border-radius: 8px; object-fit: cover;
+}
+.inventory-title h3 { margin: 0; }
+.inventory-title p { margin: 0; color: #666; font-size: 0.9rem;}
+.inventory-card-body { padding: 0 1rem 1rem; flex-grow: 1; }
+.inventory-card-body p { margin: 0.5rem 0; }
+.expiry-info { padding: 5px; border-radius: 4px; }
+.expiry-info.fresh { background-color: #e8f5e9; }
+.expiry-info.expiring-soon { background-color: #fff3e0; font-weight: bold; }
+.expiry-info.expired { background-color: #ffebee; color: #c62828; font-weight: bold; }
+.inventory-card-footer {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 1rem; border-top: 1px solid #f0f0f0;
+}
+.stock-level-indicator { font-weight: bold; padding: 0.3rem 0.8rem; border-radius: 15px; }
+.stock-level-indicator.high { background-color: #e8f5e9; color: #2e7d32; }
+.stock-level-indicator.medium { background-color: #fff3e0; color: #f57c00; }
+.stock-level-indicator.low { background-color: #ffebee; color: #c62828; }
+.stock-quantity { font-weight: bold; }

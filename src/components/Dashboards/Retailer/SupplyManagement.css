@@ -1,0 +1,19 @@
+.supplier-list { display: flex; flex-direction: column; gap: 1rem; }
+.supplier-card {
+  background: #fff; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+.supplier-header { padding: 1rem; }
+.supplier-header h3 { margin: 0; }
+.supplier-header p { margin: 0; color: #666; font-size: 0.9rem; }
+.supplier-body { padding: 1rem; border-top: 1px solid #f0f0f0; }
+.specialties-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.5rem; }
+.tag { background: #FFF8E1; color: #F57C00; padding: 0.3rem 0.7rem; border-radius: 15px; }
+.supplier-footer {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 1rem; background: #f8f9fa; border-top: 1px solid #f0f0f0;
+}
+.rating { font-weight: bold; }
+.order-button {
+  background: var(--retailer-accent); color: white; border: none; padding: 10px 20px;
+  border-radius: 5px; cursor: pointer;
+}

@@ -1,0 +1,72 @@
+.feedback-system {
+  margin-top: 2rem;
+  border-top: 1px solid #eee;
+  padding-top: 1rem;
+}
+
+.feedback-system h3 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.feedback-system .form-group {
+  margin-bottom: 1rem;
+}
+
+.feedback-system label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.feedback-system textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  resize: vertical;
+}
+
+.submit-feedback-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-feedback-btn:hover {
+  background-color: var(--primary-color);
+}
+
+.star-rating {
+  display: flex;
+  gap: 0.2rem;
+}
+
+.star-rating button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-size: 2rem;
+}
+.star-rating .on { color: #f5b301; }
+.star-rating .off { color: #ccc; }
+
+
+.feedback-system-submitted {
+  text-align: center;
+  padding: 2rem;
+  background-color: #e8f5e9;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+.feedback-system-submitted h3 {
+  color: #2e7d32;
+}
