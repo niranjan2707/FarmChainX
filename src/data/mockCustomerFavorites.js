@@ -3,13 +3,13 @@ export const favoriteProducts = [
     productId: 'prod-tmt-456',
     name: 'Organic Roma Tomatoes',
     farmName: 'Green Valley Organic Farm',
-    image: 'https://images.unsplash.com/photo-1587049352851-4a2e7c45e42e?auto=format&fit=crop&q=80&w=400'
+    image: 'src/assets/Organic Roma Tomatoes.png'
   },
   {
     productId: 'prod-pepper-456',
     name: 'Red Bell Peppers',
     farmName: 'Sunshine Farms',
-    image: 'https://images.unsplash.com/photo-1599540232414-0091c5306da9?auto=format&fit=crop&q=80&w=400'
+    image: 'src/assets/Red Bell Peppers.png'
   }
 ];
 

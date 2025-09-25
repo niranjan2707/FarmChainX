@@ -11,7 +11,7 @@ export const mockFarmerProducts = [
     description: 'Juicy and flavorful Organic Roma tomatoes, grown with organic practices.', // Updated description
     location: 'Field A1',
     fertilizer: 'Organic Compost',
-    image: 'https://images.unsplash.com/photo-1561138241-de3261ad5f22?auto=format&fit=crop&q=80&w=800',
+    image: 'src/assets/Organic Roma Tomatoes.png',
     qrCodeValue: `farmchainx-prod-d5e8b0c9` // Example static QR value
   },
   {
@@ -24,7 +24,7 @@ export const mockFarmerProducts = [
     description: 'Non-GMO sweet corn, perfect for grilling and boiling.',
     location: 'Field B3',
     fertilizer: 'Nitrogen-Rich Blend',
-    image: 'https://images.unsplash.com/photo-1598164074852-36b72a29339f?auto=format&fit=crop&q=80&w=800',
+    image: 'src/assets/Sweet Corn.png',
     qrCodeValue: `farmchainx-prod-a1b2c3d4`
   },
   {
@@ -37,7 +37,7 @@ export const mockFarmerProducts = [
     description: 'Crisp and fresh Romaine lettuce heads.',
     location: 'Greenhouse 2',
     fertilizer: 'Hydroponic Nutrients',
-    image: 'https://images.unsplash.com/photo-1556910110-a5a63502b4d3?auto=format&fit=crop&q=80&w=800',
+    image: 'src/assets/Romaine Lettuce.png',
     qrCodeValue: `farmchainx-prod-e5f6g7h8`
   },
     {
@@ -50,7 +50,7 @@ export const mockFarmerProducts = [
     description: 'Sweet and crunchy red bell peppers.',
     location: 'Field C2',
     fertilizer: 'Organic Compost',
-    image: 'https://images.unsplash.com/photo-1599540232414-0091c5306da9?auto=format&fit=crop&q=80&w=800',
+    image: 'src/assets/Red Bell Peppers.png',
     qrCodeValue: `farmchainx-prod-i9j0k1l2`
   },
 ];

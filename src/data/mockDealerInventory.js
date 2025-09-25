@@ -9,7 +9,7 @@ export const mockDealerInventory = [
     expiryDate: '2025-09-25',
     storageLocation: 'Aisle 1, Shelf A',
     qualityScore: 98, // out of 100
-    image: 'https://images.unsplash.com/photo-1587049352851-4a2e7c45e42e?auto=format&fit=crop&q=80&w=200'
+    image: 'src/assets/Organic Roma Tomatoes.png'
   },
   {
     productId: 'prod-corn-789',
@@ -21,7 +21,7 @@ export const mockDealerInventory = [
     expiryDate: '2025-10-02',
     storageLocation: 'Aisle 2, Shelf B',
     qualityScore: 95,
-    image: 'https://images.unsplash.com/photo-1598164074852-36b72a29339f?auto=format&fit=crop&q=80&w=200'
+    image: 'src/assets/Sweet Corn.png'
   },
   {
     productId: 'prod-lettuce-123',
@@ -33,7 +33,7 @@ export const mockDealerInventory = [
     expiryDate: '2025-09-22',
     storageLocation: 'Cold Storage 1',
     qualityScore: 99,
-    image: 'https://images.unsplash.com/photo-1556910110-a5a63502b4d3?auto=format&fit=crop&q=80&w=200'
+    image: 'src/assets/Romaine Lettuce.png'
   },
   {
     productId: 'prod-pepper-456',
@@ -45,6 +45,6 @@ export const mockDealerInventory = [
     expiryDate: '2025-09-30',
     storageLocation: 'Aisle 1, Shelf C',
     qualityScore: 96,
-    image: 'https://images.unsplash.com/photo-1599540232414-0091c5306da9?auto=format&fit=crop&q=80&w=200'
+    image: 'src/assets/Red Bell Peppers.png'
   }
 ];

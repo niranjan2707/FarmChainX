@@ -11,7 +11,7 @@ export const mockProducts = [
       variety: "Roma",
       batchNumber: "BATCH-2025-TMT-001",
       images: [
-        "https://images.unsplash.com/photo-1587049352851-4a2e7c45e42e?auto=format&fit=crop&q=80&w=400",
+        "src/assets/Organic Roma Tomatoes.png",
         "https://images.unsplash.com/photo-1561138241-de3261ad5f22?auto=format&fit=crop&q=80&w=400",
       ],
       dates: {

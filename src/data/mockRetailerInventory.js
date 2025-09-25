@@ -8,7 +8,7 @@ export const mockRetailerInventory = [
     price: 350.00, // per kg in INR
     arrivalDate: '2025-09-16',
     shelfLifeDays: 10,
-    image: 'https://images.unsplash.com/photo-1587049352851-4a2e7c45e42e?auto=format&fit=crop&q=80&w=200'
+    image: 'src/assets/Organic Roma Tomatoes.png'
   },
   {
     productId: 'prod-corn-789',
@@ -19,7 +19,7 @@ export const mockRetailerInventory = [
     price: 80.00,
     arrivalDate: '2025-09-17',
     shelfLifeDays: 7,
-    image: 'https://images.unsplash.com/photo-1598164074852-36b72a29339f?auto=format&fit=crop&q=80&w=200'
+    image: 'src/assets/Sweet Corn.png'
   },
   {
     productId: 'prod-lettuce-123',
@@ -30,7 +30,7 @@ export const mockRetailerInventory = [
     price: 120.00,
     arrivalDate: '2025-09-15',
     shelfLifeDays: 7,
-    image: 'https://images.unsplash.com/photo-1556910110-a5a63502b4d3?auto=format&fit=crop&q=80&w=200'
+    image: 'src/assets/Romaine Lettuce.png'
   },
   {
     productId: 'prod-apple-001',
@@ -41,6 +41,6 @@ export const mockRetailerInventory = [
     price: 280.00,
     arrivalDate: '2025-09-18',
     shelfLifeDays: 20,
-    image: 'https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?auto=format&fit=crop&q=80&w=200'
+    image: 'src/assets/Himalayan Apples.png'
   }
 ];

@@ -11,7 +11,7 @@ export const lastVerifiedProduct = {
   name: 'Organic Roma Tomatoes',
   farm: 'Green Valley Organic Farm',
   verifiedDate: '2025-09-15',
-  image: 'https://images.unsplash.com/photo-1587049352851-4a2e7c45e42e?auto=format&fit=crop&q=80&w=400'
+  image: 'src/assets/Organic Roma Tomatoes.png'
 };
 
 export const lastOrder = {
@@ -31,7 +31,7 @@ export const verificationHistory = [
     farm: 'Green Valley Organic Farm',
     scanDate: '2025-09-15T10:30:00Z',
     status: 'Verified',
-    image: 'https://images.unsplash.com/photo-1587049352851-4a2e7c45e42e?auto=format&fit=crop&q=80&w=400'
+    image: 'src/assets/Organic Roma Tomatoes.png'
   },
   {
     scanId: 'scan-002',
@@ -40,7 +40,7 @@ export const verificationHistory = [
     farm: 'Sunshine Farms',
     scanDate: '2025-09-10T18:00:00Z',
     status: 'Verified',
-    image: 'https://images.unsplash.com/photo-1598164074852-36b72a29339f?auto=format&fit=crop&q=80&w=400'
+    image: 'src/assets/Sweet Corn.png'
   },
 ];
 

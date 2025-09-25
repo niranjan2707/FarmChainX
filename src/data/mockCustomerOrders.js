@@ -10,14 +10,14 @@ export const mockCustomerOrders = [
         name: 'Organic Roma Tomatoes',
         quantity: 5, // in kg
         price: 250.00, // per kg
-        image: 'https://images.unsplash.com/photo-1587049352851-4a2e7c45e42e?auto=format&fit=crop&q=80&w=200'
+        image: 'src/assets/Organic Roma Tomatoes.png'
       },
       {
         productId: 'prod-lettuce-123',
         name: 'Romaine Lettuce',
         quantity: 12, // heads
         price: 100.00, // per head
-        image: 'https://images.unsplash.com/photo-1556910110-a5a63502b4d3?auto=format&fit=crop&q=80&w=200'
+        image: 'src/assets/Romaine Lettuce.png'
       }
     ]
   },
@@ -32,7 +32,7 @@ export const mockCustomerOrders = [
         name: 'Sweet Corn',
         quantity: 20, // cobs
         price: 64.00, // per cob
-        image: 'https://images.unsplash.com/photo-1598164074852-36b72a29339f?auto=format&fit=crop&q=80&w=200'
+        image: 'src/assets/Sweet Corn.png'
       }
     ]
   },
@@ -47,7 +47,7 @@ export const mockCustomerOrders = [
         name: 'Red Bell Peppers',
         quantity: 8, // in kg
         price: 120.00, // per kg
-        image: 'https://images.unsplash.com/photo-1599540232414-0091c5306da9?auto=format&fit=crop&q=80&w=200'
+        image: 'src/assets/Red Bell Peppers.png'
       }
     ]
   }
